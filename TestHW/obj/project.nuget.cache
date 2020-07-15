@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "5dBhvmIauCqpaDZQLI1kkDN+n1suwv+DRiPNKRrj157PJkOF+hlRJOA3fNzUxMjg+siM6xVKm2Xs13YM9Zl8Pg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Кирилл\\source\\repos\\TestHW\\TestHW.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Кирилл\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Кирилл\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Кирилл\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}
