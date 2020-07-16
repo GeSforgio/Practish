@@ -1,4 +1,0 @@
-C:\Users\Кирилл\source\repos\TestHW\bin\Debug\netcoreapp3.1\TestHW.exe
-C:\Users\Кирилл\source\repos\TestHW\obj\Debug\netcoreapp3.1\TestHW.csprojAssemblyReference.cache
-C:\Users\Кирилл\source\repos\TestHW\obj\Debug\netcoreapp3.1\TestHW.AssemblyInfoInputs.cache
-C:\Users\Кирилл\source\repos\TestHW\obj\Debug\netcoreapp3.1\TestHW.AssemblyInfo.cs
