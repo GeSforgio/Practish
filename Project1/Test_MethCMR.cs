@@ -11,16 +11,16 @@ namespace Project1
     [TestFixture]
     class Test_MethCMR
     {
-        double ta = 0.001;
-        int tH = 18;
-        double tRw = 0.1;
-        double tF = 0.5235987756;
-        int tRe = 300;
-        int tBj = 1;
-        int tKh = 1000;
-        int tPpl = 150;
-        int tPzab = 50;
-        int tu = 100;
+        double a = 0.001;
+        int H = 18;
+        double Rw = 0.1;
+        double F = 0.5235987756;
+        int Re = 300;
+        int Bj = 1;
+        int Kh = 1000;
+        int Ppl = 150;
+        int Pzab = 50;
+        int u = 100;
 
         
         [Test]
@@ -28,7 +28,7 @@ namespace Project1
         {
             double checkHd = 5692.0998;
             
-            double resultHd = MethCMR.CMR_Hd(tH,tRw,ta);
+            double resultHd = MethCMR.CMR_Hd(H,Rw,a);
             resultHd = Math.Round(resultHd, 4);
 
             Assert.AreEqual(checkHd,resultHd);
@@ -40,7 +40,7 @@ namespace Project1
             double checkA = 1.04595682254258;
             checkA = Math.Round(checkA, 5);
 
-            double resultA = MethCMR.CMR_A( ta ,tF);
+            double resultA = MethCMR.CMR_A( a ,F);
             resultA = Math.Round(resultA, 5);
 
             Assert.AreEqual(checkA,resultA);
@@ -53,7 +53,7 @@ namespace Project1
         {
             double checkS = -0.001570246023;
             checkS = Math.Round(checkS, 5);
-            double resultS = MethCMR.CMR_S(tH, tRw, ta, tF);
+            double resultS = MethCMR.CMR_S(H, Rw, a, F);
 
             Assert.AreEqual(checkS, resultS);
 
@@ -64,7 +64,7 @@ namespace Project1
         {
             double checkJd = 0.124925086772432;
             checkJd = Math.Round(checkJd, 5);
-            double resultJd = MethCMR.CMR_Jd(tH, tRw, ta, tF, tRe);
+            double resultJd = MethCMR.CMR_Jd(H, Rw, a, F, Re);
             Assert.AreEqual(checkJd, resultJd);
         }
 
@@ -74,7 +74,7 @@ namespace Project1
             double checkQj = 122.142941982823;
             checkQj = Math.Round(checkQj, 4);
             
-            double resultQj = MethCMR.CMR_Qj(tH, tRw, ta, tF, tRe, tBj, tKh, tPpl, tPzab, tu);
+            double resultQj = MethCMR.CMR_Qj(H, Rw, a, F, Re, Bj, Kh, Ppl, Pzab, u);
 
             Assert.AreEqual(checkQj, resultQj);
 
