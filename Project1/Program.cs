@@ -11,26 +11,14 @@ namespace Project1
 
 
 
-        public static double CMR_Jd(int h, double Rw, double a, double f, int Re)
-        {
-            double JdS = MethCMR.CMR_S(h, Rw, a, f);
-            double Jd = 1 / (Math.Log(Re / Rw) + JdS);
-            Jd = Math.Round(Jd, 5);
-            return Jd;
-        }
-
-        public static double CMR_Qj(int h, double Rw, double a, double f, int Re, int Bj, int Kh, int Ppl, int Pzab, int u)
-        {
-            double Jd = CMR_Jd(h, Rw, a, f, Re);
-            double Qj = Jd * (Kh * h * (Ppl - Pzab)) / (18.41 * u * Bj);
-            Qj = Math.Round(Qj, 4);
-            return Qj;
-        }
+     
 
 
         static void Main(string[] args)
         {
-          
+            double c = MethVDV.VDV_Jd(18, 0.1, 0.5235987756, 300);
+            Console.WriteLine(c);
+            Console.ReadLine();
         }
     }
 }

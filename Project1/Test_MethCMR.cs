@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Project1
 {
     [TestFixture]
-    class TestMethCMR
+    class Test_MethCMR
     {
         double ta = 0.001;
         int tH = 18;
@@ -64,7 +64,7 @@ namespace Project1
         {
             double checkJd = 0.124925086772432;
             checkJd = Math.Round(checkJd, 5);
-            double resultJd = Program.CMR_Jd(tH, tRw, ta, tF, tRe);
+            double resultJd = MethCMR.CMR_Jd(tH, tRw, ta, tF, tRe);
             Assert.AreEqual(checkJd, resultJd);
         }
 
@@ -74,7 +74,7 @@ namespace Project1
             double checkQj = 122.142941982823;
             checkQj = Math.Round(checkQj, 4);
             
-            double resultQj = Program.CMR_Qj(tH, tRw, ta, tF, tRe, tBj, tKh, tPpl, tPzab, tu);
+            double resultQj = MethCMR.CMR_Qj(tH, tRw, ta, tF, tRe, tBj, tKh, tPpl, tPzab, tu);
 
             Assert.AreEqual(checkQj, resultQj);
 
