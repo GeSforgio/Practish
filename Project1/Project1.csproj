@@ -51,10 +51,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MethCMR.cs" />
+    <Compile Include="MethJoshi.cs" />
     <Compile Include="MethOzkan.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test_MethCMR.cs" />
+    <Compile Include="Test_MethJoshi.cs" />
     <Compile Include="Test_MethOzkan.cs" />
     <Compile Include="Test_MethVDV.cs" />
     <Compile Include="MethVDV.cs" />

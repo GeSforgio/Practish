@@ -23,19 +23,19 @@ namespace Project1
         public void Test_VDV_S()
         {
             double checkS = -0.36087936442088;
-            checkS = Math.Round(checkS, 4);
+            
             double resultS = MethVDV.VDV_S(Rw,h,f);
 
-            Assert.AreEqual(checkS, resultS);
+            Assert.AreEqual(checkS, resultS, 0.0001);
         }
 
         [Test]
         public void Test_VDV_Jd()
         {
             double checkJd = 0.124925086772432;
-            checkJd = Math.Round(checkJd, 4);
+            
             double resultJd = MethVDV.VDV_Jd(h, Rw,f,Re);
-            Assert.AreEqual(checkJd, resultJd);
+            Assert.AreEqual(checkJd, resultJd, 0.1);
         }
 
         [Test]

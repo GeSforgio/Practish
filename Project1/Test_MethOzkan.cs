@@ -27,10 +27,10 @@ namespace Project1
         public void Test_Ozkan_S()
         {
             double checkS = -0.8536761537;
-            checkS = Math.Round(checkS, 4);
+            
             double resultS = MethOzkan.Ozkan_S(Rw, h, a, L, Zw);
 
-            Assert.AreEqual(checkS, resultS);
+            Assert.AreEqual(checkS, resultS, 0.0001);
 
         }
 
@@ -38,20 +38,20 @@ namespace Project1
         public void Test_Ozkan_Jd()
         {
             double checkJd = 0.1398075133;
-            checkJd = Math.Round(checkJd, 5);
+           
             double resultJd = MethOzkan.Ozkan_Jd(Rw, h, a, L, Zw, Re);
 
-            Assert.AreEqual(checkJd, resultJd);
+            Assert.AreEqual(checkJd, resultJd, 0.0001);
         }
 
         [Test]
         public void Test_Ozkan_Qj()
         {
             double checkQj = 136.6939294;
-            checkQj = Math.Round(checkQj, 1);
+            
             double resultQj = MethOzkan.Ozkan_Qj(Rw, h, a, L, Zw, Re,Bj,Kh,Ppl,Pzab,u);
-
-            Assert.AreEqual(checkQj, resultQj);
+            
+            Assert.AreEqual(checkQj, resultQj, 0.01);
         }
     }
 }

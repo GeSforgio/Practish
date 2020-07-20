@@ -11,7 +11,7 @@ namespace Project1
         public static double VDV_S(double Rw, double h, double f)
         {
             double S = -Math.Log((h / (4 * Rw * Math.Cos(f))) * Math.Pow((0.454 * Math.Sin(2 * Math.PI * Rw / h)), Math.Cos(f)));
-            S = Math.Round(S, 4);
+            
             return S;
         }
 
@@ -20,7 +20,7 @@ namespace Project1
         {
             double S = VDV_S(Rw, h, f);
             double Jd = 1 / (Math.Log(Re / Rw) + S);
-            Jd = Math.Round(Jd, 5); 
+            
             return Jd;
         }
 

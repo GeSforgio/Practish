@@ -26,7 +26,7 @@ namespace Project1
             double sHd = CMR_Hd(h, Rw, a);
             double sA = CMR_A(a, f);
             double S = -Math.Pow((sA/ 41), 2.06) - Math.Pow((sA/56),1.865) * Math.Log10(sHd/100);
-            S = Math.Round(S, 5);
+            
             return S;
         }
 
@@ -34,7 +34,7 @@ namespace Project1
         {
             double JdS = CMR_S(h, Rw, a, f);
             double Jd = 1 / (Math.Log(Re / Rw) + JdS);
-            Jd = Math.Round(Jd, 5);
+            
             return Jd;
         }
 
@@ -42,7 +42,7 @@ namespace Project1
         {
             double Jd = CMR_Jd(h, Rw, a, f, Re);
             double Qj = Jd * (Kh * h * (Ppl - Pzab)) / (18.41 * u * Bj);
-            Qj = Math.Round(Qj, 4);
+            
             return Qj;
         }
     }

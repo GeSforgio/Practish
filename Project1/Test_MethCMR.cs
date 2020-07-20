@@ -38,12 +38,12 @@ namespace Project1
         public void Test_CMR_A()
         {
             double checkA = 1.04595682254258;
-            checkA = Math.Round(checkA, 5);
+            
 
             double resultA = MethCMR.CMR_A( a ,F);
-            resultA = Math.Round(resultA, 5);
+            
 
-            Assert.AreEqual(checkA,resultA);
+            Assert.AreEqual(checkA,resultA, 0.0001);
 
 
         }
@@ -52,10 +52,10 @@ namespace Project1
         public void Test_CMR_S()
         {
             double checkS = -0.001570246023;
-            checkS = Math.Round(checkS, 5);
+            
             double resultS = MethCMR.CMR_S(H, Rw, a, F);
 
-            Assert.AreEqual(checkS, resultS);
+            Assert.AreEqual(checkS, resultS, 0.0001);
 
         }
 
@@ -63,20 +63,20 @@ namespace Project1
         public void Test_CMR_Jd()
         {
             double checkJd = 0.124925086772432;
-            checkJd = Math.Round(checkJd, 5);
+            
             double resultJd = MethCMR.CMR_Jd(H, Rw, a, F, Re);
-            Assert.AreEqual(checkJd, resultJd);
+            Assert.AreEqual(checkJd, resultJd, 0.0001);
         }
 
         [Test]
         public void Test_CMR_Qj()
         {
             double checkQj = 122.142941982823;
-            checkQj = Math.Round(checkQj, 4);
+            
             
             double resultQj = MethCMR.CMR_Qj(H, Rw, a, F, Re, Bj, Kh, Ppl, Pzab, u);
 
-            Assert.AreEqual(checkQj, resultQj);
+            Assert.AreEqual(checkQj, resultQj, 0.0001);
 
         }
 

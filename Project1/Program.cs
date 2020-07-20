@@ -16,9 +16,14 @@ namespace Project1
 
         static void Main(string[] args)
         {
-            double c = MethVDV.VDV_Jd(18, 0.1, 0.5235987756, 300);
-            Console.WriteLine(c);
-            Console.ReadLine();
+            double Rw = 0.1;
+            int h = 18;
+            int Re = 300;
+            int L = 600;
+            int Zw = 9;
+            double a = MethJoshi.Joshi_S(Rw, h, Re, L, Zw);
+
+
         }
     }
 }
