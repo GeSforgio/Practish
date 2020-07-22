@@ -1,0 +1,4 @@
+C:\Users\Кирилл\Documents\GitHub\Practish\Methodic.Tests\obj\Debug\netcoreapp3.1\Methodic.Tests.csprojAssemblyReference.cache
+C:\Users\Кирилл\Documents\GitHub\Practish\Methodic.Tests\obj\Debug\netcoreapp3.1\Methodic.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Кирилл\Documents\GitHub\Practish\Methodic.Tests\obj\Debug\netcoreapp3.1\Methodic.Tests.AssemblyInfoInputs.cache
+C:\Users\Кирилл\Documents\GitHub\Practish\Methodic.Tests\obj\Debug\netcoreapp3.1\Methodic.Tests.AssemblyInfo.cs

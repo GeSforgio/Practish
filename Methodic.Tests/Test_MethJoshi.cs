@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿ using Excel = Microsoft.Office.Interop.Excel;
+using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +7,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project1
+namespace MethodicTests
 {
     [TestFixture]
     class Test_MethJoshi
@@ -21,6 +22,7 @@ namespace Project1
         int Ppl = 150;
         int Pzab = 50;
         int u = 100;
+
         [Test]
         public void Test_Joshi_a()
         {
@@ -30,6 +32,7 @@ namespace Project1
             Assert.AreEqual(checkA, resultA, 0.001);
 
         }
+
         [Test]
         public void Test_Joshi_S()
         {

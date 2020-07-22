@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project1
+namespace Methodic
 {
-    class MethJoshi
+   public class MethJoshi
     {
         public static double Joshi_a(int Re, int L)
         {

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project1
+namespace Methodic
 {
-    class MethVDV
+   public  class MethVDV
     {
         public static double VDV_S(double Rw, double h, double f)
         {

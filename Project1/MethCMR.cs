@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project1
+ namespace Methodic
 {
-    class MethCMR
+   public class MethCMR
     {
         public static double CMR_Hd(int h, double Rw, double a)
         {

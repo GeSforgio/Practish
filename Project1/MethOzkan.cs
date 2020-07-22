@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project1
+namespace Methodic
 {
-    class MethOzkan
+    public class MethOzkan
     {
         public static double Ozkan_S(double Rw, int h, double a, int L, int Zw)
         {

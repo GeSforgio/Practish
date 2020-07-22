@@ -30,3 +30,6 @@ C:\Users\Кирилл\Documents\GitHub\Practish\Project1\obj\Debug\Project1.cspr
 C:\Users\Кирилл\Documents\GitHub\Practish\Project1\obj\Debug\Project1.exe
 C:\Users\Кирилл\Documents\GitHub\Practish\Project1\obj\Debug\Project1.pdb
 C:\Users\Кирилл\Documents\GitHub\Practish\Project1\obj\Debug\Project1.csprojAssemblyReference.cache
+C:\Users\Кирилл\Documents\GitHub\Practish\Project1\bin\Debug\ExcelDataReader.dll
+C:\Users\Кирилл\Documents\GitHub\Practish\Project1\bin\Debug\ExcelDataReader.pdb
+C:\Users\Кирилл\Documents\GitHub\Practish\Project1\bin\Debug\ExcelDataReader.xml
